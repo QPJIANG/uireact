@@ -5,8 +5,11 @@ import {Button, Switch,Icon,Row,Col } from 'antd';
 import 'antd/dist/antd.css'
 
 import { DatePicker } from 'antd';
+// bizcharts
 import { Chart, Geom, Axis, Tooltip, Legend, Coord } from 'bizcharts';
   
+// ajax 
+import reqwest from 'reqwest';
 
 
 const { MonthPicker, RangePicker, WeekPicker } = DatePicker;
